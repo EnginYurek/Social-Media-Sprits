@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIExercise+splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Blog">Blog</string>
+    <string name="Vlog">Vlog</string>
+    <string name="ThatSophiaKid">That Sophia Kid</string>
+    <string name="EnglishFirstDecription">I was born in St. Petersburg, Russia and moved to Toronto when I was 5 years old. I write a style blog, am a contributor to Conde Nast\'s</string>
+    <string name="EnglishSecondDescription">Canadian platform Fashionation TV, Skype\'s Global Fashion Ambassador, and am also a full-time internationally represented model. I live every day with maximum positivity and strive to emit radiance, and I honestly have no idea where I&amp;apos;ll be headed tomorrow, which makes life all the more fun.</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="saturday">Saturday</string>
+    <string name="friday">Friday</string>
+    <string name="at">at</string>
+    <string name="publishedIn">Published in</string>
+    <string name="NewBlogPostonClassisinternal">New Blog Post on Classisinternal</string>
+    <string name="NewVideoonClassisinternalyoutubeChannel">New Video on Classisinternal youtube Channel</string>
+    <string name="NewBlogPostonthatsophiakidyoutubeChannel">New Blog Post on thatsophiakid youtube Channel</string>
+    <string name="contactSonya">Contact:</string>
+    <string name="contact">Contact</string>
+    <string name="developer_mail"><u><b>ask to developer</b></u></string>
+
+</resources>

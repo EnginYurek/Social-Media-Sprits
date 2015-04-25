@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uiexercisesplash"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <supports-screens android:requiresSmallestWidthDp="600" />
+    <supports-screens android:requiresSmallestWidthDp="720" />
+    <supports-screens android:requiresSmallestWidthDp="480" />
+	<supports-screens android:requiresSmallestWidthDp="800" />
+	<supports-screens android:smallScreens="true" 
+          android:normalScreens="true" 
+          android:largeScreens="true"
+          android:xlargeScreens="true"
+          android:anyDensity="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.uiexercisesplash.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.FIRSTSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.EnglishBlogListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.BLOGLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.RussianChannelListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.RUSSIANCHANNELLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.EnglishChannelListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.ENGLISHCHANNELLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.RussianBlogListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.RUSSIANBLOGLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uiexercisesplash.ContactActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.uiexercisesplash.CONTACTACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="ZamanServisi" >
+        </service>
+        <service android:name="SendNotification" >
+        </service>
+    </application>
+
+</manifest>
